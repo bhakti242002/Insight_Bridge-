@@ -1,4 +1,4 @@
-# Insight Bridge — Upload any messy spreadsheet. Get a dashboard.
+# Insight Bridge: Upload any messy spreadsheet. Get a dashboard.
 
 **Live: [insight-bridge-omega.vercel.app](https://insight-bridge-omega.vercel.app)**
 
@@ -137,10 +137,8 @@ cd backend && python run_test_suite.py
 cd frontend/src/lib && node chartCompute.test.js
 ```
 
-## Deployment
-
-See `DEPLOYMENT.md` for the full walkthrough.
+See [DEPLOYMENT.md](DEPLOYMENT.md) for the full walkthrough.
 
 ## License
 
-MIT — see `LICENSE`.
+MIT — see [LICENSE](LICENSE).
