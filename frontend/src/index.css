@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0A0E16;
+  color: #E7EAF3;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.ledger-rule {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 27px,
+    #232B3D 27px,
+    #232B3D 28px
+  );
+}
+
+.glow-ring {
+  box-shadow: 0 0 0 1px rgba(129, 140, 248, 0.15), 0 8px 32px -8px rgba(129, 140, 248, 0.25);
+}
+
+@media print {
+  body {
+    background-color: #FFFFFF !important;
+    color: #1A1A1A !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .bg-paper, .bg-surface, .bg-surface-light {
+    background-color: #FFFFFF !important;
+    background-image: none !important;
+  }
+  [class*="text-ink"] {
+    color: #1A1A1A !important;
+  }
+  [class*="border-rule"] {
+    border-color: #DDDDDD !important;
+  }
+  .text-ledger {
+    color: #4F46E5 !important;
+  }
+  .text-stamp, .text-stamp-dark {
+    color: #C2410C !important;
+  }
+  button {
+    display: none !important;
+  }
+  svg text, .recharts-text {
+    fill: #1A1A1A !important;
+  }
+  .recharts-cartesian-grid line {
+    stroke: #DDDDDD !important;
+  }
+}
+
+@keyframes scanline {
+  0% { transform: translateY(0); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(120px); opacity: 0; }
+}
+
+.scan-line {
+  animation: scanline 2.8s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scan-line {
+    animation: none;
+  }
+}

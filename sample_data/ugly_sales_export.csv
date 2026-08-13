@@ -1,0 +1,16 @@
+Date,Cust Name,Item,Qty,Price,Total,Notes
+01/03/2024,John Smith,Widget A,3,19.99,59.97,
+01/05/2024,Sarah Lee,Widget B,1,45.00,45.00,rush order
+01/07/2024,John Smith,Widget A,2,19.99,39.98,
+01/10/2024,Mike Chen,Widget C,5,12.50,62.50,
+01/12/2024,Sarah Lee,Widget A,1,19.99,19.99,
+01/15/2024,Anita Roy,Widget B,4,45.00,180.00,
+01/18/2024,John Smith,Widget C,2,12.50,25.00,
+01/22/2024,Mike Chen,Widget A,3,19.99,59.97,discount applied
+02/01/2024,Sarah Lee,Widget C,6,12.50,75.00,
+02/03/2024,Anita Roy,Widget A,2,19.99,39.98,
+02/05/2024,John Smith,Widget B,3,45.00,135.00,
+02/09/2024,Mike Chen,Widget B,1,45.00,45.00,
+02/14/2024,Sarah Lee,Widget A,5,19.99,99.95,
+02/18/2024,Anita Roy,Widget C,2,12.50,25.00,
+02/22/2024,John Smith,Widget A,1,19.99,19.99,
