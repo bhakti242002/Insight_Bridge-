@@ -72,13 +72,5 @@ Go back to Render -> your backend's environment variables -> set `FRONTEND_ORIGI
 
 Visit your Vercel URL, upload the sample CSV, confirm it works exactly like it did locally.
 
-## 6. Before you actually share this with real people
 
-- **Set a real Anthropic API budget alert** in console.anthropic.com -> Plans & Billing, so a traffic spike doesn't surprise you with a bill
-- **Double check `UPLOAD_RATE_LIMIT`** is set to something sane for your budget (10/hour per IP is a reasonable starting point)
-- **Add a privacy line** to your landing page if you haven't (already in the frontend copy: "your file is read in memory and never saved to disk") — this is true as long as you don't add file-persistence later, so keep it true
-- **Decide what "real people" means for v1** — a soft launch to classmates/a subreddit/a small business owner you know is plenty for your first round of real usage data; you don't need viral traffic to have a legitimate "I shipped this and got real users" story
 
-## What you'll be able to say after this
-
-"I built and deployed a full-stack web app — Python/Flask backend, React frontend, Postgres for usage tracking — that's live at a real URL, used by real people, with real usage data I can analyze." That's a materially different (and stronger) claim than "I built a project," and it's exactly the gap this was meant to fill for Product Analyst roles.
