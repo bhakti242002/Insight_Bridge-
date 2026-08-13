@@ -1,10 +1,10 @@
-# Deployment Guide — Going Live
+# Deployment Guide: Going Live
 
 This gets your app from "runs on my laptop" to a real URL real people can use.
 
 Stack: **Render** (backend API) + **Vercel** (frontend) + **Supabase** (usage database) — all have free tiers sufficient for an early-stage project like this.
 
-## 1. Set up Supabase (usage database) — do this first
+## 1. Set up Supabase (usage database): do this first
 
 1. Go to supabase.com, create a free account and a new project
 2. In the SQL Editor, run:
